@@ -1,0 +1,15 @@
+
+<!DOCTYPE html>
+<html>
+  <body>
+    <p>title</p>
+    <p>some text</p>
+    <ul>
+    <li>first</li>
+    <li>second</li>
+    <li>third</li>
+    <li>fourth</li>
+    </ul>
+    <p>footer</p>
+  </body>
+</html>

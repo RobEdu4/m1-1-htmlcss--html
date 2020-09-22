@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head></head>
+<body>
+<h1>Registration form</h1>
+<form>
+    <label>Username  
+        <input name="enteredUsername" autocomplete="name">
+    </label>
+
+    <label>password  
+        <input name="enteredPassword" autocomplete="name">     
+    </label>
+
+    <label>Email  
+        <input name="enteredEmail" autocomplete="name">     
+    </label>
+</form>
+
+<h3>Which taxi do you require?</h3>
+
+<form>
+    <label>
+        <input type="radio" name="radio1"> Car
+    </label>
+    <label>
+        <input type="radio" name="radio2"> Van
+    </label>
+    <label>
+        <input type="radio" name="radio3"> Tuk Tuk
+    </label>
+</form>
+
+<h3>Choose your extras</h3>
+
+<form>
+    <label>
+        <input type="checkbox" name="checkbox1"> Baby seat 
+    </label>
+    <label>
+        <input type="checkbox" name="checkbox2"> Wheelchair access
+    </label>
+    <label>
+        <input type="checkbox" name="checkbox3"> Privacy windows
+    </label>
+</form>
+
+<h3>Where would you like us to pick you up?</h3>
+
+<form>
+    <label>Pickup Location: </label>
+    <select name="location">
+        <option value="">Select One</option>
+        <option value="home">Home</option>
+        <option value="fromWork">From Work</option>
+    </select>
+</form>
+
+<h3>Additional Instructions</h3>
+
+<form>
+<label>Special</label>
+    <textarea name ="specialInstruction" height=20px placeholder="provide special instructoins here"></textarea>
+    <input type="submit">
+</form>
+
+</body>
+</html>
